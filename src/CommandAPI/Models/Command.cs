@@ -9,7 +9,7 @@ namespace CommandAPI.Models
         public int Id {get; set;}
 
         [Required]
-        [MaxLenght(250)]
+        [MaxLength(250)]
         public string HowTo {get; set;}
         
         [Required]
